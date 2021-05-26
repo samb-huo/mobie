@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "type": "input",
+      "default": "com.ms.${appName}",
+      "message": "请输入你的包名:",
+      "name": "packageName"
+    },
+    {
+      "type": "input",
+      "default": "1.0.0",
+      "message": "请输入你的项目版本号:",
+      "name": "versionName",
+      "validator": "version"
+    }
+  ]
+}
