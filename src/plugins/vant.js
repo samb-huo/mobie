@@ -1,4 +1,5 @@
 import Vue from 'vue'
-import { Button } from 'vant'
+import Vant, { Locale } from 'vant'
+import 'vant/lib/index.css'
 
-Vue.use(Button)
+Vue.use(Vant)
